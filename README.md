@@ -1,6 +1,16 @@
-## Discord Bot for Minecraft Server Status
+## Discord Minecraft Bot
 
-This Discord bot displays the status of a Minecraft server, showing the number of players online. It updates the status every minute.
+This is a Discord bot built using the `discord.js` library. The bot retrieves the player count of a Minecraft server and displays it as its activity status in a Discord server.
+
+### Features
+- Automatically updates the player count every minute
+- Displays the player count as the bot's activity status
+- Handles server offline scenarios gracefully
+
+### Technologies Used
+- [Discord.js](https://discord.js.org/) - A powerful JavaScript library for interacting with the Discord API.
+- [replit.com](https://replit.com/) - Used for hosting the bot and ensuring it stays online.
+- [cron-job.org](https://cron-job.org/) - Used for scheduling regular updates and keeping the bot online 24/7. Be sure to copy the Replit URL to the cron job.
 
 ### Setup
 
