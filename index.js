@@ -1,6 +1,8 @@
 const { Client, GatewayIntentBits, ActivityType } = require('discord.js');
 const fetch = require('@replit/node-fetch');
 
+const keepAlive = require("./server")
+
 // Discord bot client setup
 const client = new Client({
   intents: [
@@ -65,5 +67,6 @@ function setBotActivity(status) {
   });
 }
 
+keepAlive()
 // Bot login
 client.login(process.env.DISCORD_TOKEN);
